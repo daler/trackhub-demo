@@ -1,11 +1,11 @@
 genome newOrg1
-trackDb /home/ryan/proj/trackhub/ci/example_assembly_hub/newOrg1/trackDb.txt
+trackDb example_assembly_hub/newOrg1/trackDb.txt
 twoBitPath assembly_hub_genomes.txt
-groups /home/ryan/proj/trackhub/ci/example_assembly_hub/newOrg1/groups.txt
+groups example_assembly_hub/newOrg1/groups.txt
 description BigFoot V4
 organism Big Foot
 scientificName Biggus Footus
 orderKey 4800
 defaultPos chr1:0-1000000
-htmlDocumentation /home/ryan/proj/trackhub/ci/example_assembly_hub/newOrg1/newOrg1_info.html
+htmlDocumentation example_assembly_hub/newOrg1/newOrg1_info.html
 

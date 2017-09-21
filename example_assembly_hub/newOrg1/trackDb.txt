@@ -1,0 +1,34 @@
+track sine-no1-1000
+bigDataUrl sine-no1-1000.bigWig
+shortLabel sine-no1-1000
+longLabel sine-no1-1000
+type bigWig
+group example_tracks
+
+track sine-no1-100
+bigDataUrl sine-no1-100.bigWig
+shortLabel sine-no1-100
+longLabel sine-no1-100
+type bigWig
+group example_tracks
+
+track random-no1-1
+bigDataUrl random-no1-1.bigBed
+shortLabel random-no1-1
+longLabel random-no1-1
+type bigBed
+group example_tracks
+
+track random-no1-2
+bigDataUrl random-no1-2.bigBed
+shortLabel random-no1-2
+longLabel random-no1-2
+type bigBed
+group example_tracks
+
+track random-no1-0
+bigDataUrl random-no1-0.bigBed
+shortLabel random-no1-0
+longLabel random-no1-0
+type bigBed
+group example_tracks

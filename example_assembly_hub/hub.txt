@@ -1,5 +1,0 @@
-hub assembly_hub
-shortLabel assembly_hub
-longLabel an example of an assembly hub
-genomesFile assembly_hub.genomes.txt
-email none@example.com

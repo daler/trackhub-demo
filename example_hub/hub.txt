@@ -1,5 +1,0 @@
-hub myhub
-shortLabel myhub
-longLabel myhub
-genomesFile myhub.genomes.txt
-email none@example.com

@@ -1,13 +1,13 @@
-track sinedm31000bedgraphbw
-bigDataUrl sinedm31000bedgraphbw.bigWig
-shortLabel sinedm31000bedgraphbw
-longLabel sinedm31000bedgraphbw
-type bigWig
-color 128,0,0
-
 track sinedm310000bedgraphbw
 bigDataUrl sinedm310000bedgraphbw.bigWig
 shortLabel sinedm310000bedgraphbw
 longLabel sinedm310000bedgraphbw
 type bigWig
-color 128,0,0
+color 128,0,5
+
+track sinedm31000bedgraphbw
+bigDataUrl sinedm31000bedgraphbw.bigWig
+shortLabel sinedm31000bedgraphbw
+longLabel sinedm31000bedgraphbw
+type bigWig
+color 128,0,5

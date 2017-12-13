@@ -1,0 +1,5 @@
+hub hub
+shortLabel example grouping hub
+longLabel example grouping hub
+genomesFile grouping.genomes.txt
+email dalerr@niddk.nih.gov

@@ -4,6 +4,7 @@ shortLabel sineno1100
 longLabel sineno1100
 type bigWig
 group example_tracks
+autoScale on
 
 track sineno11000
 bigDataUrl sineno11000.bigWig
@@ -11,6 +12,7 @@ shortLabel sineno11000
 longLabel sineno11000
 type bigWig
 group example_tracks
+autoScale on
 
 track randomno12
 bigDataUrl randomno12.bigBed

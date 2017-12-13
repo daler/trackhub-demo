@@ -1,0 +1,4 @@
+name example_tracks
+label Example Tracks
+priority 1
+defaultIsClosed 0

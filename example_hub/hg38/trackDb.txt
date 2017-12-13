@@ -1,0 +1,50 @@
+track sinehg380bedgraphbw
+bigDataUrl sinehg380bedgraphbw.bigWig
+shortLabel sinehg380bedgraphbw
+longLabel sinehg380bedgraphbw
+type bigWig
+visibility full
+color 128,0,5
+autoScale on
+
+track sinehg382bedgraphbw
+bigDataUrl sinehg382bedgraphbw.bigWig
+shortLabel sinehg382bedgraphbw
+longLabel sinehg382bedgraphbw
+type bigWig
+visibility full
+color 128,0,5
+autoScale on
+
+track sinehg381bedgraphbw
+bigDataUrl sinehg381bedgraphbw.bigWig
+shortLabel sinehg381bedgraphbw
+longLabel sinehg381bedgraphbw
+type bigWig
+visibility full
+color 128,0,5
+autoScale on
+
+track randomhg381bigBed
+bigDataUrl randomhg381bigBed.bigBed
+shortLabel regions0
+longLabel regions0
+type bigBed
+visibility dense
+color 0,0,255
+
+track randomhg380bigBed
+bigDataUrl randomhg380bigBed.bigBed
+shortLabel regions1
+longLabel regions1
+type bigBed
+visibility dense
+color 0,0,255
+
+track randomhg382bigBed
+bigDataUrl randomhg382bigBed.bigBed
+shortLabel regions2
+longLabel regions2
+type bigBed
+visibility dense
+color 0,0,255

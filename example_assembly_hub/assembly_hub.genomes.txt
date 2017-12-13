@@ -1,0 +1,11 @@
+genome newOrg1
+trackDb newOrg1/trackDb.txt
+twoBitPath newOrg1/newOrg1.2bit
+groups newOrg1/groups.txt
+description BigFoot V4
+organism Big Foot
+scientificName Biggus Footus
+orderKey 4800
+defaultPos chr1:0-1000000
+htmlDocumentation newOrg1/newOrg1_info.html
+

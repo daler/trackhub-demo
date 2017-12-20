@@ -1,0 +1,5 @@
+hub hub
+shortLabel example htmldoc hub
+longLabel example htmldoc hub
+genomesFile htmldoc.genomes.txt
+email dalerr@niddk.nih.gov

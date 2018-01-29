@@ -3,8 +3,8 @@ shortLabel Signal and regions
 longLabel Signal and regions
 type bigWig
 visibility full
-filterComposite dimA
 dimensions dimX=num dimY=s1 dimA=kind
+filterComposite dimA
 sortOrder num=+ kind=-
 subGroup1 view Views signal=signal regions=regions
 subGroup2 num Number 0=zero 1=one 2=two

@@ -2,7 +2,7 @@ track signal1
 bigDataUrl signal1.bigWig
 shortLabel signal1
 longLabel signal1
-type bigWig
+type bigWig -2 2
 
 track signal2
 bigDataUrl signal2.bigWig

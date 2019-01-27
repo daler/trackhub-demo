@@ -1,0 +1,12 @@
+track bar1
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/barChart/hg38.gtexTranscripts.bb
+shortLabel bar1
+longLabel bar1
+type bigBarChart
+barChartBars adiposeSubcut breastMamTissue colonTransverse muscleSkeletal wholeBlood
+barChartColors #FF6600 #33CCCC #CC9955 #AAAAFF #FF00BB
+barChartLabel Tissues
+barChartMatrixUrl http://genome.ucsc.edu/goldenPath/help/examples/barChart/exampleMatrix.txt
+barChartMetric median
+barChartSampleUrl http://genome.ucsc.edu/goldenPath/help/examples/barChart/exampleSampleData.txt
+visibility full

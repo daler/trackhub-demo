@@ -1,5 +1,0 @@
-hub hub
-shortLabel quickstart
-longLabel quickstart
-genomesFile quickstart.genomes.txt
-email you@email.com

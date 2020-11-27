@@ -9,4 +9,4 @@ barChartLabel Tissues
 barChartMatrixUrl http://genome.ucsc.edu/goldenPath/help/examples/barChart/exampleMatrix.txt
 barChartMetric median
 barChartSampleUrl http://genome.ucsc.edu/goldenPath/help/examples/barChart/exampleSampleData.txt
-visibility full
+visibility pack

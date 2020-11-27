@@ -14,10 +14,10 @@ type bigWig
 autoScale on
 group example_tracks
 
-track randomno10
-bigDataUrl randomno10.bigBed
-shortLabel randomno10
-longLabel randomno10
+track randomno12
+bigDataUrl randomno12.bigBed
+shortLabel randomno12
+longLabel randomno12
 type bigBed
 group example_tracks
 
@@ -28,9 +28,9 @@ longLabel randomno11
 type bigBed
 group example_tracks
 
-track randomno12
-bigDataUrl randomno12.bigBed
-shortLabel randomno12
-longLabel randomno12
+track randomno10
+bigDataUrl randomno10.bigBed
+shortLabel randomno10
+longLabel randomno10
 type bigBed
 group example_tracks

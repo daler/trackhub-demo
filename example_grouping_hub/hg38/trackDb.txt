@@ -20,18 +20,6 @@ compositeTrack on
     view signal
     visibility full
     
-            track sinehg381bedgraphbw
-            bigDataUrl sinehg381bedgraphbw.bigWig
-            shortLabel sinehg381bedgraphbw
-            longLabel sinehg381bedgraphbw
-            type bigWig
-            color 46,52,64
-            maxHeightPixels 8:50:128
-            parent signalviewtrack
-            viewLimits -2:2
-            visibility full
-            subGroups s1=y num=1 kind=signal view=signal
-    
             track sinehg380bedgraphbw
             bigDataUrl sinehg380bedgraphbw.bigWig
             shortLabel sinehg380bedgraphbw
@@ -55,6 +43,18 @@ compositeTrack on
             viewLimits -2:2
             visibility full
             subGroups s1=n num=2 kind=signal view=signal
+    
+            track sinehg381bedgraphbw
+            bigDataUrl sinehg381bedgraphbw.bigWig
+            shortLabel sinehg381bedgraphbw
+            longLabel sinehg381bedgraphbw
+            type bigWig
+            color 46,52,64
+            maxHeightPixels 8:50:128
+            parent signalviewtrack
+            viewLimits -2:2
+            visibility full
+            subGroups s1=y num=1 kind=signal view=signal
 
     track regionsviewtrack
     shortLabel Regions
@@ -112,15 +112,6 @@ viewLimits -2:2
 visibility full
 container multiWig
 
-    track sinehg381bedgraphbwagg
-    bigDataUrl sinehg381bedgraphbwagg.bigWig
-    shortLabel sinehg381bedgraphbwagg
-    longLabel sinehg381bedgraphbwagg
-    type bigWig
-    color 46,52,64
-    parent agg
-    visibility full
-
     track sinehg380bedgraphbwagg
     bigDataUrl sinehg380bedgraphbwagg.bigWig
     shortLabel sinehg380bedgraphbwagg
@@ -136,5 +127,14 @@ container multiWig
     longLabel sinehg382bedgraphbwagg
     type bigWig
     color 109,191,167
+    parent agg
+    visibility full
+
+    track sinehg381bedgraphbwagg
+    bigDataUrl sinehg381bedgraphbwagg.bigWig
+    shortLabel sinehg381bedgraphbwagg
+    longLabel sinehg381bedgraphbwagg
+    type bigWig
+    color 46,52,64
     parent agg
     visibility full

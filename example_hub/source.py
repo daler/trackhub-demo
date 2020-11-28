@@ -7,13 +7,17 @@ hub, genomes_file, genome, trackdb = trackhub.default_hub(
     short_label='myhub',
     long_label='myhub',
     genome="hg38",
-    email="dalerr@niddk.nih.gov")
+    email="ryan.dale@nih.gov")
 
-# Next, we add a track for every bigwig found.  In practice, you would
-# point to your own files. In this example we use the path to the data
-# included with trackhub.
+# Next we add tracks for some bigWigs. These can be anywhere on the
+# filesystem; symlinks will be made to them. Here we use some example data
+# included with the trackhub package; in practice you'd point to your own
+# data.
 
 for bigwig in glob.glob('trackhub/test/data/sine-hg38-*.bw'):
+    # track names can't have any spaces or special characters. Since we'll
+    # be using filenames as names, and filenames have non-alphanumeric
+    # characters, we use the sanitize() function to remove them.
     name = trackhub.helpers.sanitize(os.path.basename(bigwig))
     track = trackhub.Track(
         name=name,          # track names can't have any spaces or special chars.

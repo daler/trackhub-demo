@@ -2,4 +2,4 @@ hub hub
 shortLabel myhub
 longLabel myhub
 genomesFile myhub.genomes.txt
-email dalerr@niddk.nih.gov
+email ryan.dale@nih.gov

@@ -1,0 +1,6 @@
+track bigGenePred
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bigGenePredEx4.bb
+shortLabel bigGenePred
+longLabel bigGenePred
+type bigGenePred
+visibility pack

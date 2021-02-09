@@ -1,0 +1,7 @@
+track VCF_Example_One
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/vcfExample.vcf.gz
+shortLabel VCF_Example_One
+longLabel VCF_Example_One
+type vcfTabix
+chromosomes chr21
+visibility pack

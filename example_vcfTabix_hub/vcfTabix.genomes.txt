@@ -1,0 +1,4 @@
+genome hg19
+trackDb hg19/trackDb.txt
+defaultPos chr21:33034804-33037719
+

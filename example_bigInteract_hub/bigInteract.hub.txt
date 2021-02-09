@@ -1,0 +1,5 @@
+hub hub
+shortLabel bigInteract
+longLabel bigInteract
+genomesFile bigInteract.genomes.txt
+email eva.jason@nih.gov

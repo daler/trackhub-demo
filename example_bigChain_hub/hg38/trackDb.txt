@@ -1,0 +1,6 @@
+track bigChain
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bigChain.bb
+shortLabel bigChain
+longLabel bigChain Example Hub
+type bigChain
+visibility pack

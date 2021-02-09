@@ -1,0 +1,6 @@
+track bigNarrowPeak
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bigNarrowPeak.bb
+shortLabel bigNPk
+longLabel bigNarrowPeakExample
+type bigNarrowPeak
+visibility full

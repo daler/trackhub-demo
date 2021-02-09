@@ -1,0 +1,5 @@
+hub hub
+shortLabel vcfTabix_example
+longLabel vcfTabix_example
+genomesFile vcfTabix.genomes.txt
+email eva.jason@nih.gov

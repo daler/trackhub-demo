@@ -21,16 +21,16 @@ longLabel randomno12
 type bigBed
 group example_tracks
 
-track randomno11
-bigDataUrl randomno11.bigBed
-shortLabel randomno11
-longLabel randomno11
-type bigBed
-group example_tracks
-
 track randomno10
 bigDataUrl randomno10.bigBed
 shortLabel randomno10
 longLabel randomno10
+type bigBed
+group example_tracks
+
+track randomno11
+bigDataUrl randomno11.bigBed
+shortLabel randomno11
+longLabel randomno11
 type bigBed
 group example_tracks

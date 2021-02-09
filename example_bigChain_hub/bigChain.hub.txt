@@ -1,0 +1,5 @@
+hub hub
+shortLabel bigChain
+longLabel bigChain
+genomesFile bigChain.genomes.txt
+email eva.jason@nih.gov

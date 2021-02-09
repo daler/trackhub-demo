@@ -1,0 +1,4 @@
+genome hg38
+trackDb hg38/trackDb.txt
+defaultPos chr14:95081796-95436280
+

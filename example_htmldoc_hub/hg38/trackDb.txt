@@ -14,17 +14,6 @@ compositeTrack on
     view signal
     visibility full
     
-            track sinehg380bedgraphbw
-            bigDataUrl sinehg380bedgraphbw.bigWig
-            shortLabel sinehg380bedgraphbw
-            longLabel sinehg380bedgraphbw
-            type bigWig
-            maxHeightPixels 8:50:128
-            parent signalviewtrack
-            viewLimits -2:2
-            visibility full
-            subGroups view=signal
-    
             track sinehg382bedgraphbw
             bigDataUrl sinehg382bedgraphbw.bigWig
             shortLabel sinehg382bedgraphbw
@@ -46,6 +35,17 @@ compositeTrack on
             viewLimits -2:2
             visibility full
             subGroups view=signal
+    
+            track sinehg380bedgraphbw
+            bigDataUrl sinehg380bedgraphbw.bigWig
+            shortLabel sinehg380bedgraphbw
+            longLabel sinehg380bedgraphbw
+            type bigWig
+            maxHeightPixels 8:50:128
+            parent signalviewtrack
+            viewLimits -2:2
+            visibility full
+            subGroups view=signal
 
 track agg
 shortLabel agg
@@ -57,14 +57,6 @@ showSubtrackColorOnUi on
 viewLimits -2:2
 visibility full
 container multiWig
-
-    track sinehg380bedgraphbwagg
-    bigDataUrl sinehg380bedgraphbwagg.bigWig
-    shortLabel sinehg380bedgraphbwagg
-    longLabel sinehg380bedgraphbwagg
-    type bigWig
-    parent agg
-    visibility full
 
     track sinehg382bedgraphbwagg
     bigDataUrl sinehg382bedgraphbwagg.bigWig
@@ -82,9 +74,17 @@ container multiWig
     parent agg
     visibility full
 
-track randomhg381bigBed1
-bigDataUrl randomhg381bigBed1.bigBed
-shortLabel randomhg381bigBed1
-longLabel randomhg381bigBed1
+    track sinehg380bedgraphbwagg
+    bigDataUrl sinehg380bedgraphbwagg.bigWig
+    shortLabel sinehg380bedgraphbwagg
+    longLabel sinehg380bedgraphbwagg
+    type bigWig
+    parent agg
+    visibility full
+
+track randomhg380bigBed1
+bigDataUrl randomhg380bigBed1.bigBed
+shortLabel randomhg380bigBed1
+longLabel randomhg380bigBed1
 type bigBed
 visibility dense

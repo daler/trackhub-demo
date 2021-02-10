@@ -1,7 +1,7 @@
-track sinehg380bedgraphbw
-bigDataUrl sinehg380bedgraphbw.bigWig
-shortLabel sinehg380bedgraphbw
-longLabel sinehg380bedgraphbw
+track sinehg381bedgraphbw
+bigDataUrl sinehg381bedgraphbw.bigWig
+shortLabel sinehg381bedgraphbw
+longLabel sinehg381bedgraphbw
 type bigWig
 autoScale on
 color 128,0,5
@@ -16,10 +16,10 @@ autoScale on
 color 128,0,5
 visibility full
 
-track sinehg381bedgraphbw
-bigDataUrl sinehg381bedgraphbw.bigWig
-shortLabel sinehg381bedgraphbw
-longLabel sinehg381bedgraphbw
+track sinehg380bedgraphbw
+bigDataUrl sinehg380bedgraphbw.bigWig
+shortLabel sinehg380bedgraphbw
+longLabel sinehg380bedgraphbw
 type bigWig
 autoScale on
 color 128,0,5

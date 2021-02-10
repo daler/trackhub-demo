@@ -1,0 +1,10 @@
+track bigLolly
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bigLollyExample3.bb
+shortLabel bigLolly
+longLabel bigLolly
+type bigLolly
+lollyMaxSize 10
+lollySizeField lollySize
+noStems on
+visibility full
+yAxisLabel.1 5 on 30,30,190 5

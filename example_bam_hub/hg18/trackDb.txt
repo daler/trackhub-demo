@@ -1,0 +1,11 @@
+track bam
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bamExample.bam
+shortLabel bam
+longLabel bam
+type bam
+chromosomes chr21
+description bam ex. 1: 1000 genomes read alignments (individual na12878)
+maxWindowToDraw 200000
+pairEndsByName .
+pairSearchRange 10000
+visibility pack

@@ -1,0 +1,5 @@
+hub hub
+shortLabel bigGenePred
+longLabel bigGenePred
+genomesFile bigGenePred.genomes.txt
+email eva.jason@nih.gov

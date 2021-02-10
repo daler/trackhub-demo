@@ -1,0 +1,9 @@
+track bigInteract
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/interact/interactExample3.inter.bb
+shortLabel bigInteract
+longLabel bigInteract
+type bigInteract
+maxHeightPixels 300:150:20
+scoreMin 175
+spectrum on
+visibility pack

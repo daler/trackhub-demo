@@ -1,5 +1,0 @@
-hub hub
-shortLabel example barChart
-longLabel example barChart
-genomesFile barchart_hub.genomes.txt
-email dalerr@niddk.nih.gov

@@ -13,39 +13,39 @@ compositeTrack on
     parent composite
     view signal
     visibility full
-    
-            track sinehg381bedgraphbw
-            bigDataUrl sinehg381bedgraphbw.bigWig
-            shortLabel sinehg381bedgraphbw
-            longLabel sinehg381bedgraphbw
-            type bigWig
-            maxHeightPixels 8:50:128
-            parent signalviewtrack
-            viewLimits -2:2
-            visibility full
-            subGroups view=signal
-    
-            track sinehg382bedgraphbw
-            bigDataUrl sinehg382bedgraphbw.bigWig
-            shortLabel sinehg382bedgraphbw
-            longLabel sinehg382bedgraphbw
-            type bigWig
-            maxHeightPixels 8:50:128
-            parent signalviewtrack
-            viewLimits -2:2
-            visibility full
-            subGroups view=signal
-    
-            track sinehg380bedgraphbw
-            bigDataUrl sinehg380bedgraphbw.bigWig
-            shortLabel sinehg380bedgraphbw
-            longLabel sinehg380bedgraphbw
-            type bigWig
-            maxHeightPixels 8:50:128
-            parent signalviewtrack
-            viewLimits -2:2
-            visibility full
-            subGroups view=signal
+
+        track sinehg381bedgraphbw
+        bigDataUrl sinehg381bedgraphbw.bigWig
+        shortLabel sinehg381bedgraphbw
+        longLabel sinehg381bedgraphbw
+        type bigWig
+        maxHeightPixels 8:50:128
+        parent signalviewtrack
+        viewLimits -2:2
+        visibility full
+        subGroups view=signal
+
+        track sinehg382bedgraphbw
+        bigDataUrl sinehg382bedgraphbw.bigWig
+        shortLabel sinehg382bedgraphbw
+        longLabel sinehg382bedgraphbw
+        type bigWig
+        maxHeightPixels 8:50:128
+        parent signalviewtrack
+        viewLimits -2:2
+        visibility full
+        subGroups view=signal
+
+        track sinehg380bedgraphbw
+        bigDataUrl sinehg380bedgraphbw.bigWig
+        shortLabel sinehg380bedgraphbw
+        longLabel sinehg380bedgraphbw
+        type bigWig
+        maxHeightPixels 8:50:128
+        parent signalviewtrack
+        viewLimits -2:2
+        visibility full
+        subGroups view=signal
 
 track agg
 shortLabel agg

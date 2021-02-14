@@ -19,42 +19,42 @@ compositeTrack on
     parent composite
     view signal
     visibility full
-    
-            track sinehg381bedgraphbw
-            bigDataUrl sinehg381bedgraphbw.bigWig
-            shortLabel sinehg381bedgraphbw
-            longLabel sinehg381bedgraphbw
-            type bigWig
-            color 46,52,64
-            maxHeightPixels 8:50:128
-            parent signalviewtrack
-            viewLimits -2:2
-            visibility full
-            subGroups s1=y num=1 kind=signal view=signal
-    
-            track sinehg382bedgraphbw
-            bigDataUrl sinehg382bedgraphbw.bigWig
-            shortLabel sinehg382bedgraphbw
-            longLabel sinehg382bedgraphbw
-            type bigWig
-            color 109,191,167
-            maxHeightPixels 8:50:128
-            parent signalviewtrack
-            viewLimits -2:2
-            visibility full
-            subGroups s1=n num=2 kind=signal view=signal
-    
-            track sinehg380bedgraphbw
-            bigDataUrl sinehg380bedgraphbw.bigWig
-            shortLabel sinehg380bedgraphbw
-            longLabel sinehg380bedgraphbw
-            type bigWig
-            color 140,43,69
-            maxHeightPixels 8:50:128
-            parent signalviewtrack
-            viewLimits -2:2
-            visibility full
-            subGroups s1=n num=0 kind=signal view=signal
+
+        track sinehg381bedgraphbw
+        bigDataUrl sinehg381bedgraphbw.bigWig
+        shortLabel sinehg381bedgraphbw
+        longLabel sinehg381bedgraphbw
+        type bigWig
+        color 46,52,64
+        maxHeightPixels 8:50:128
+        parent signalviewtrack
+        viewLimits -2:2
+        visibility full
+        subGroups s1=y num=1 kind=signal view=signal
+
+        track sinehg382bedgraphbw
+        bigDataUrl sinehg382bedgraphbw.bigWig
+        shortLabel sinehg382bedgraphbw
+        longLabel sinehg382bedgraphbw
+        type bigWig
+        color 109,191,167
+        maxHeightPixels 8:50:128
+        parent signalviewtrack
+        viewLimits -2:2
+        visibility full
+        subGroups s1=n num=2 kind=signal view=signal
+
+        track sinehg380bedgraphbw
+        bigDataUrl sinehg380bedgraphbw.bigWig
+        shortLabel sinehg380bedgraphbw
+        longLabel sinehg380bedgraphbw
+        type bigWig
+        color 140,43,69
+        maxHeightPixels 8:50:128
+        parent signalviewtrack
+        viewLimits -2:2
+        visibility full
+        subGroups s1=n num=0 kind=signal view=signal
 
     track regionsviewtrack
     shortLabel Regions
@@ -63,36 +63,36 @@ compositeTrack on
     parent composite
     view regions
     visibility dense
-    
-            track randomhg381bigBed
-            bigDataUrl randomhg381bigBed.bigBed
-            shortLabel randomhg381bigBed
-            longLabel randomhg381bigBed
-            type bigBed
-            color 46,52,64
-            parent regionsviewtrack
-            visibility dense
-            subGroups s1=y num=1 kind=peak view=regions
-    
-            track randomhg380bigBed
-            bigDataUrl randomhg380bigBed.bigBed
-            shortLabel randomhg380bigBed
-            longLabel randomhg380bigBed
-            type bigBed
-            color 140,43,69
-            parent regionsviewtrack
-            visibility dense
-            subGroups s1=n num=0 kind=peak view=regions
-    
-            track randomhg382bigBed
-            bigDataUrl randomhg382bigBed.bigBed
-            shortLabel randomhg382bigBed
-            longLabel randomhg382bigBed
-            type bigBed
-            color 109,191,167
-            parent regionsviewtrack
-            visibility dense
-            subGroups s1=n num=2 kind=peak view=regions
+
+        track randomhg381bigBed
+        bigDataUrl randomhg381bigBed.bigBed
+        shortLabel randomhg381bigBed
+        longLabel randomhg381bigBed
+        type bigBed
+        color 46,52,64
+        parent regionsviewtrack
+        visibility dense
+        subGroups s1=y num=1 kind=peak view=regions
+
+        track randomhg380bigBed
+        bigDataUrl randomhg380bigBed.bigBed
+        shortLabel randomhg380bigBed
+        longLabel randomhg380bigBed
+        type bigBed
+        color 140,43,69
+        parent regionsviewtrack
+        visibility dense
+        subGroups s1=n num=0 kind=peak view=regions
+
+        track randomhg382bigBed
+        bigDataUrl randomhg382bigBed.bigBed
+        shortLabel randomhg382bigBed
+        longLabel randomhg382bigBed
+        type bigBed
+        color 109,191,167
+        parent regionsviewtrack
+        visibility dense
+        subGroups s1=n num=2 kind=peak view=regions
 
 track super
 shortLabel Super track
@@ -100,41 +100,41 @@ longLabel Super track
 type superTrack
 superTrack on
 
-track agg
-shortLabel agg
-longLabel agg
-type bigWig
-aggregate transparentOverlay
-maxHeightPixels 8:80:128
-parent super
-showSubtrackColorOnUi on
-viewLimits -2:2
-visibility full
-container multiWig
-
-    track sinehg381bedgraphbwagg
-    bigDataUrl sinehg381bedgraphbwagg.bigWig
-    shortLabel sinehg381bedgraphbwagg
-    longLabel sinehg381bedgraphbwagg
+    track agg
+    shortLabel agg
+    longLabel agg
     type bigWig
-    color 46,52,64
-    parent agg
+    aggregate transparentOverlay
+    maxHeightPixels 8:80:128
+    parent super
+    showSubtrackColorOnUi on
+    viewLimits -2:2
     visibility full
+    container multiWig
 
-    track sinehg382bedgraphbwagg
-    bigDataUrl sinehg382bedgraphbwagg.bigWig
-    shortLabel sinehg382bedgraphbwagg
-    longLabel sinehg382bedgraphbwagg
-    type bigWig
-    color 109,191,167
-    parent agg
-    visibility full
+        track sinehg381bedgraphbwagg
+        bigDataUrl sinehg381bedgraphbwagg.bigWig
+        shortLabel sinehg381bedgraphbwagg
+        longLabel sinehg381bedgraphbwagg
+        type bigWig
+        color 46,52,64
+        parent agg
+        visibility full
 
-    track sinehg380bedgraphbwagg
-    bigDataUrl sinehg380bedgraphbwagg.bigWig
-    shortLabel sinehg380bedgraphbwagg
-    longLabel sinehg380bedgraphbwagg
-    type bigWig
-    color 140,43,69
-    parent agg
-    visibility full
+        track sinehg382bedgraphbwagg
+        bigDataUrl sinehg382bedgraphbwagg.bigWig
+        shortLabel sinehg382bedgraphbwagg
+        longLabel sinehg382bedgraphbwagg
+        type bigWig
+        color 109,191,167
+        parent agg
+        visibility full
+
+        track sinehg380bedgraphbwagg
+        bigDataUrl sinehg380bedgraphbwagg.bigWig
+        shortLabel sinehg380bedgraphbwagg
+        longLabel sinehg380bedgraphbwagg
+        type bigWig
+        color 140,43,69
+        parent agg
+        visibility full

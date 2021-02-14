@@ -11,9 +11,7 @@ hub, genome, genomes_file,trackdb = trackhub.default_hub(
 track = trackhub.Track(
     tracktype = 'vcfTabix',
     name="VCF_Example_One",
-    #description="VCF Ex. 1: 1000 Genomes phase 1 interim SNVs",
     chromosomes='chr21',
-    #maxWindowToDraw=200000,
     visibility='pack',
     url='http://genome.ucsc.edu/goldenPath/help/examples/vcfExample.vcf.gz')
 trackdb.add_tracks(track)

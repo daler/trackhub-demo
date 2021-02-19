@@ -1,5 +1,5 @@
 hub hub
-shortLabel hic_example
-longLabel hic_example
+shortLabel hic
+longLabel hic
 genomesFile hic.genomes.txt
 email eva.jason@nih.gov

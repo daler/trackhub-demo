@@ -18,4 +18,5 @@ track = trackhub.Track(
      visibility='pack',
      bigDataUrl='http://genome.ucsc.edu/goldenPath/help/examples/bamExample.bam')
 trackdb.add_tracks(track)
+
 trackhub.upload.upload_hub(hub=hub, host="localhost", remote_dir="example_hubs/example_bam_hub")

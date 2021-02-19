@@ -11,8 +11,8 @@ track = trackhub.Track(
     tracktype='bigNarrowPeak',
     name='bigNarrowPeak',
     bigDataUrl='http://genome.ucsc.edu/goldenPath/help/examples/bigNarrowPeak.bb',
-    shortLabel='bigNPk',
-    longLabel='bigNarrowPeakExample',
+    shortLabel='bigNarrowPeak',
+    longLabel='bigNarrowPeak',
     visibility='full')
 trackdb.add_tracks(track)
 

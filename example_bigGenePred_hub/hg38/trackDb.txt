@@ -1,6 +1,7 @@
 track bigGenePred
-bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bigGenePredEx4.bb
+bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bigGenePred.bb
 shortLabel bigGenePred
 longLabel bigGenePred
 type bigGenePred
+baseColorDefault genomicCodons
 visibility pack

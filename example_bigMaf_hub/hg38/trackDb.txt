@@ -4,3 +4,4 @@ shortLabel bigMaf
 longLabel bigMaf
 type bigMaf
 frames http://genome.ucsc.edu/goldenPath/help/examples/bigMafFrames.bb
+visibility full

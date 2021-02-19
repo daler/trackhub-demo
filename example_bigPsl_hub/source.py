@@ -10,7 +10,8 @@ hub, genome, genomes_file,trackdb = trackhub.default_hub(
 track = trackhub.Track(
     name = 'bigPsl',
     tracktype ='bigPsl',
-    bigDataUrl='http://genome.ucsc.edu/goldenPath/help/examples/bigPsl.bb')
+    bigDataUrl='http://genome.ucsc.edu/goldenPath/help/examples/bigPsl.bb',
+    visibility='pack')
 trackdb.add_tracks(track)
 
 trackhub.upload.upload_hub(hub=hub, host='localhost',remote_dir='example_hubs/example_bigPsl_hub')

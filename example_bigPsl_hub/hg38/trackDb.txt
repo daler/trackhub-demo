@@ -3,3 +3,4 @@ bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bigPsl.bb
 shortLabel bigPsl
 longLabel bigPsl
 type bigPsl
+visibility pack

@@ -1,21 +1,24 @@
 import trackhub
 
-hub, genomes_file, genome, trackdb=trackhub.default_hub(
-    hub_name='bigGenePred',
-    short_label='bigGenePred',
-    long_label='bigGenePred',
-    defaultPos='chr10:67884600-67884900',
-    genome='hg38',
-    email='eva.jason@nih.gov')
+hub, genomes_file, genome, trackdb = trackhub.default_hub(
+    hub_name="bigGenePred",
+    short_label="bigGenePred",
+    long_label="bigGenePred",
+    defaultPos="chr19:44905790-44909388",
+    genome="hg38",
+    email="eva.jason@nih.gov",
+)
 
-track=trackhub.Track(
-    name='bigGenePred',
-    bigDataUrl='http://genome.ucsc.edu/goldenPath/help/examples/bigGenePred.bb',
-    baseColorDefault='genomicCodons',
-    shortLabel='bigGenePred',
-    longLabel ='bigGenePred',
-    tracktype='bigGenePred',
-    visibility='pack')
+track = trackhub.Track(
+    name="bigGenePred",
+    bigDataUrl="http://genome.ucsc.edu/goldenPath/help/examples/bigGenePredEx4.bb",
+    shortLabel="bigGenePred",
+    longLabel="bigGenePred",
+    tracktype="bigGenePred",
+    visibility="pack",
+)
 trackdb.add_tracks(track)
 
-trackhub.upload.upload_hub(hub=hub, host='localhost', remote_dir='example_hubs/example_bigGenePred_hub')
+trackhub.upload.upload_hub(
+    hub=hub, host="localhost", remote_dir="example_hubs/example_bigGenePred_hub"
+)

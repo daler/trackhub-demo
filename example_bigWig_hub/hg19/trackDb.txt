@@ -1,6 +1,6 @@
 track bigWig
 bigDataUrl http://genome.ucsc.edu/goldenPath/help/examples/bigWigExample.bw
-shortLabel bigWig
-longLabel bigWig
+shortLabel Example Hub
+longLabel Example Hub
 type bigWig
 visibility full

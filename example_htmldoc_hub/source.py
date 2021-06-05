@@ -86,7 +86,7 @@ signal_view = trackhub.ViewTrack(
     '''
     )
 )
-composite.add_view(signal_view)
+composite.add_tracks(signal_view)
 
 # This multiWig overlay track will shows multiple bigWigs overlaying each
 # other in the same track

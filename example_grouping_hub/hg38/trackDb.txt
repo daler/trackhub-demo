@@ -64,15 +64,15 @@ compositeTrack on
     view regions
     visibility dense
 
-        track randomhg382bigBed
-        bigDataUrl randomhg382bigBed.bigBed
-        shortLabel randomhg382bigBed
-        longLabel randomhg382bigBed
+        track randomhg381bigBed
+        bigDataUrl randomhg381bigBed.bigBed
+        shortLabel randomhg381bigBed
+        longLabel randomhg381bigBed
         type bigBed
-        color 109,191,167
+        color 46,52,64
         parent regionsviewtrack
         visibility dense
-        subGroups s1=n num=2 kind=peak view=regions
+        subGroups s1=y num=1 kind=peak view=regions
 
         track randomhg380bigBed
         bigDataUrl randomhg380bigBed.bigBed
@@ -84,15 +84,15 @@ compositeTrack on
         visibility dense
         subGroups s1=n num=0 kind=peak view=regions
 
-        track randomhg381bigBed
-        bigDataUrl randomhg381bigBed.bigBed
-        shortLabel randomhg381bigBed
-        longLabel randomhg381bigBed
+        track randomhg382bigBed
+        bigDataUrl randomhg382bigBed.bigBed
+        shortLabel randomhg382bigBed
+        longLabel randomhg382bigBed
         type bigBed
-        color 46,52,64
+        color 109,191,167
         parent regionsviewtrack
         visibility dense
-        subGroups s1=y num=1 kind=peak view=regions
+        subGroups s1=n num=2 kind=peak view=regions
 
 track super
 shortLabel Super track

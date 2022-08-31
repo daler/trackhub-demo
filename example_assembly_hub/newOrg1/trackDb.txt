@@ -1,11 +1,3 @@
-track sineno11000
-bigDataUrl sineno11000.bigWig
-shortLabel sineno11000
-longLabel sineno11000
-type bigWig
-autoScale on
-group example_tracks
-
 track sineno1100
 bigDataUrl sineno1100.bigWig
 shortLabel sineno1100
@@ -14,17 +6,25 @@ type bigWig
 autoScale on
 group example_tracks
 
-track randomno10
-bigDataUrl randomno10.bigBed
-shortLabel randomno10
-longLabel randomno10
-type bigBed
+track sineno11000
+bigDataUrl sineno11000.bigWig
+shortLabel sineno11000
+longLabel sineno11000
+type bigWig
+autoScale on
 group example_tracks
 
 track randomno11
 bigDataUrl randomno11.bigBed
 shortLabel randomno11
 longLabel randomno11
+type bigBed
+group example_tracks
+
+track randomno10
+bigDataUrl randomno10.bigBed
+shortLabel randomno10
+longLabel randomno10
 type bigBed
 group example_tracks
 

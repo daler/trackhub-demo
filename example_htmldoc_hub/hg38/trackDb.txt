@@ -82,9 +82,9 @@ container multiWig
     parent agg
     visibility full
 
-track randomhg381bigBed1
-bigDataUrl randomhg381bigBed1.bigBed
-shortLabel randomhg381bigBed1
-longLabel randomhg381bigBed1
+track randomhg380bigBed1
+bigDataUrl randomhg380bigBed1.bigBed
+shortLabel randomhg380bigBed1
+longLabel randomhg380bigBed1
 type bigBed
 visibility dense
